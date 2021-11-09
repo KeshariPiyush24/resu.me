@@ -5,115 +5,119 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./style.css" />
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
   <title>Fill Information</title>
 </head>
 
 <body>
-  <h1>RESU.ME</h1>
-  <form>
-    <fieldset>
-      <legend>Personal Details</legend>
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname">
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname">
-      <label for="birthday">Birthday:</label>
-      <input type="date">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email">
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone"">
-      <label for=" picture">Image</label>
-      <input type="image">
-      <label for="address">Address:</label>
-      <textarea id="address" name="address"></textarea>
-    </fieldset>
 
-    <fieldset>
-      <legend>About</legend>
-      <textarea id="about" name="about"></textarea>
-    </fieldset>
+  <header>
 
-    <fieldset>
-      <legend>Education</legend>
-      <label for="school">School:</label>
-      <input type="text" id="school" name="school">
-      <label for="degree">Degree:</label>
-      <input type="text" id="degree" name="degree">
-      <label for="major">Major:</label>
-      <input type="text" id="major" name="major">
-      <label for="gpa">GPA:</label>
-      <input type="text" id="gpa" name="gpa">
-      <label for="graduation">Graduation:</label>
-      <input type="date" id="graduation" name="graduation">
-    </fieldset>
+  </header>
 
-    <fieldset>
-      <legend>Skills</legend>
-      <fieldset>
-        <legend>Soft Skills:</legend>
-        <div class="tags-container" data-name="softSkills-input">
-          <div class="tag">
-            <span>HTML</span>
-            <span class="close">
-              <i class="material-icons">
-                close
-              </i>
-            </span>
-          </div>
-          <div class="tag">
-            <span>CSS</span>
-            <span class="close">
-              <i class="material-icons">
-                close
-              </i>
-            </span>
-          </div>
-          <div class="tag">
-            <span>JAVASCRIPT</span>
-            <span class="close">
-              <i class="material-icons">
-                close
-              </i>
-            </span>
-          </div>
-          <input type="text" class="tag-input">
-        </div>
+  <div class="container">
+    <form>
+      <fieldset class="personal-details">
+        <legend>Personal Details</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="birthday">Birthday:</label>
+        <input type="date">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for=" picture">Image</label>
+        <input type="image">
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea>
       </fieldset>
-    </fieldset>
 
-    <fieldset>
+      <fieldset class="about">
+        <legend>About</legend>
+        <textarea id="about" name="about"></textarea>
+      </fieldset>
 
-      <legend>Experience</legend>
+      <fieldset class="education">
+        <legend>Education</legend>
+        <label for="school">School:</label>
+        <input type="text" id="school" name="school">
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree">
+        <label for="major">Major:</label>
+        <input type="text" id="major" name="major">
+        <label for="gpa">GPA:</label>
+        <input type="text" id="gpa" name="gpa">
+        <label for="graduation">Graduation:</label>
+        <input type="date" id="graduation" name="graduation">
+      </fieldset>
 
-      <label for=" company">Company:</label>
-      <input type="text" id="company" name="company">
-      <label for="position">Position:</label>
-      <input type="text" id="position" name="position">
-      <label for="moreInfo">More Info:</label>
-      <input type="text" id="moreInfo" name="moreInfo">
-      <label for="joinDate">From:</label>
-      <input type="date" id="joinDate" name="joinDate">
-      <label for="leaveDate">To:</label>
-      <input type="date" id="leaveDate" name="leaveDate">
+      <fieldset class="skills">
+        <legend>Skills</legend>
+        <fieldset>
+          <legend>Soft Skills:</legend>
+          <div class="tags-container" data-name="softSkills-input">
+            <div class="tag">
+              <span>HTML</span>
+              <span class="close">
+                <i class="material-icons">
+                  close
+                </i>
+              </span>
+            </div>
+            <div class="tag">
+              <span>CSS</span>
+              <span class="close">
+                <i class="material-icons">
+                  close
+                </i>
+              </span>
+            </div>
+            <div class="tag">
+              <span>JAVASCRIPT</span>
+              <span class="close">
+                <i class="material-icons">
+                  close
+                </i>
+              </span>
+            </div>
+            <input type="text" class="tag-input">
+          </div>
+        </fieldset>
+      </fieldset>
 
-    </fieldset>
+      <fieldset class="experience">
+        <legend>Experience</legend>
+        <label for=" company">Company:</label>
+        <input type="text" id="company" name="company">
+        <label for="position">Position:</label>
+        <input type="text" id="position" name="position">
+        <label for="moreInfo">More Info:</label>
+        <input type="text" id="moreInfo" name="moreInfo">
+        <label for="joinDate">From:</label>
+        <input type="date" id="joinDate" name="joinDate">
+        <label for="leaveDate">To:</label>
+        <input type="date" id="leaveDate" name="leaveDate">
+      </fieldset>
 
-    <fieldset>
-      <legend>Social accounts</legend>
-      <label for="github">Github</label>
-      <input type="text" id="github" name="github">
-      <label for="linkedin">Linkedin</label>
-      <input type="text" id="linkedin" name="linkedin">
-      <label for="codechef">Codechef</label>
-      <input type="text" id="codechef" name="codechef">
-      <label for="codeforces">Codeforces</label>
-      <input type="text" id="codeforces" name="codeforces">
-    </fieldset>
+      <fieldset class="social">
+        <legend>Social</legend>
+        <label for="github">Github</label>
+        <input type="text" id="github" name="github">
+        <label for="linkedin">Linkedin</label>
+        <input type="text" id="linkedin" name="linkedin">
+        <label for="codechef">Codechef</label>
+        <input type="text" id="codechef" name="codechef">
+        <label for="codeforces">Codeforces</label>
+        <input type="text" id="codeforces" name="codeforces">
+      </fieldset>
+    </form>
 
-    </div>
+  </div>
+  <button type="submit" id="">Submit</button>
 </body>
 
 </html>
