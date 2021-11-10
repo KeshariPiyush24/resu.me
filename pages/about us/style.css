@@ -33,14 +33,14 @@
 }
 
 #circle1 {
-    margin: 110px;
+    margin: 90px;
     background-image: url(/assets/images/user1.png);
     background-position: center;
     background-size: cover;
 }
 
 #circle2 {
-    margin: 110px;
+    margin: 90px;
     background-image: url(/assets/images/user2.png);
     background-position: center;
     background-size: cover;
@@ -48,7 +48,7 @@
 }
 
 #circle3 {
-    margin: 110px;
+    margin: 90px;
     background-image: url(/assets/images/user3.png);
     background-position: center;
     background-size: cover;
@@ -56,7 +56,7 @@
 }
 
 #circle4 {
-    margin: 110px;
+    margin: 90px;
     background-image: url(/assets/images/user4.png);
     background-position: center;
     background-size: cover;
