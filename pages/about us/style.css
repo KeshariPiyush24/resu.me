@@ -1,4 +1,11 @@
 
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+  
 
 .header  {
     width: 100%;
@@ -6,7 +13,7 @@
     background-color: #2f3640;
     position: fixed;
     top: 0;
-    display: flex;
+
     
     color: white;
     
@@ -14,7 +21,7 @@
 }
 
 .section1 {
-    background-color: lightgray;
+    background-color: white;
 }
 .section1 h2 {
     text-align: center;
@@ -33,14 +40,14 @@
 }
 
 #circle1 {
-    margin: 110px;
+    margin:90px 90px 0px;
     background-image: url(/assets/images/user1.png);
     background-position: center;
     background-size: cover;
 }
 
 #circle2 {
-    margin: 110px;
+    margin: 90px 90px 0px;
     background-image: url(/assets/images/user2.png);
     background-position: center;
     background-size: cover;
@@ -48,7 +55,7 @@
 }
 
 #circle3 {
-    margin: 110px;
+    margin:90px 90px 0px;
     background-image: url(/assets/images/user3.png);
     background-position: center;
     background-size: cover;
@@ -56,7 +63,7 @@
 }
 
 #circle4 {
-    margin: 110px;
+    margin: 90px 90px 0px;
     background-image: url(/assets/images/user4.png);
     background-position: center;
     background-size: cover;
@@ -70,3 +77,24 @@
     background-color: lightsalmon;
 
 }
+
+#names {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+  }
+
+  ul#names li {
+    float: left;
+  }
+
+  ul#names li a {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    padding:0px 100px 25px 150px ;
+    text-decoration: none;
+  }
