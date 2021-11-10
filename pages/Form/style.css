@@ -1,28 +1,3 @@
-* {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-}
-
-body {
-    display: block;
-}
-
-.container {
-    width: 80%;
-    margin: 20px auto;
-    display: grid;
-}
-
-.personal-details {
-    display: grid;
-}
-
-
-fieldset:focus {
-    border: 1px solid red;
-}
-
 tags-container {
     border: 1px solid black;
     padding: 2px 2.5px;
@@ -45,8 +20,13 @@ tags-container {
     background-color: #3af;
 }
 
+.close {
+    display: flex;
+    align-items: center;
+}
+
 .close:hover {
-    color: #E32111;
+    color: red;
     transform: scale(1.2);
 }
 
