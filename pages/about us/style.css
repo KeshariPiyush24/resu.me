@@ -1,0 +1,23 @@
+body {
+    background-image: url("../../assets/images/logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading {
+    width: 100%;
+    height: 70px;
+    background-color: #2f3640;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+}
