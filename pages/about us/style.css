@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     border: 0px;
+}
+body{
+    text-align: center;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .inner a {
@@ -22,65 +32,6 @@
     top: 0;
     color: white;
     justify-content: center;
-}
-
-.section1 {
-    background-color: white;
-}
-
-.section1 h2 {
-    text-align: center;
-}
-
-.circlecontainer {
-    display: flex;
-    justify-content: center;
-}
-
-#circle1 {
-    margin: 65px;
-    background-image: url(/assets/images/piyush.jpeg);
-    background-position: center;
-    background-size: cover;
-}
-
-#circle2 {
-    margin: 65px;
-    background-image: url(/assets/images/rohan.jpeg);
-    background-position: center;
-    background-size: cover;
-
-}
-
-#circle3 {
-    margin: 65px;
-    background-image: url(/assets/images/aditya.jpeg);
-    background-position: center;
-    background-size: cover;
-
-}
-
-#circle4 {
-    margin: 65px;
-    background-image: url(/assets/images/priyanshu.jpg);
-    background-position: center;
-    background-size: cover;
-
-}
-
-.circle {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-color: lightsalmon;
-}
-
-#names {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
 }
 
 ul#names li {
@@ -104,6 +55,7 @@ ul#names li a {
 }
 
 #navbar img {
+    float: left;
     width: auto;
     height: 100%;
 }
@@ -124,4 +76,43 @@ ul#navbar li a {
 ul#navbar li a:hover {
     background-color: #ef233c;
     color: white;
+} 
+
+.card {
+    width: 100%;
+    padding: 30px 40px;
+    margin: 30px auto;
+}
+
+.circle {
+    display: block;
+    width: 100%;
+    box-sizing: content-box;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+.profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    margin: 10px 0px;
+}
+
+p {
+    font-size:30px;
+    margin: 20px 0px;
+}
+
+.icon {
+    cursor: pointer;
+    width: 50px;
+    margin: 10px 10px;
 }
